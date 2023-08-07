@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Số Chính Phương Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #outputText {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tìm Số Chính Phương</h2>
+        <label for="numberA">Nhập số a:</label>
+        <input type="number" id="numberA" min="0">
+        <br>
+        <label for="numberB">Nhập số b:</label>
+        <input type="number" id="numberB" min="0">
+        <br>
+        <button onclick="findPerfectSquares()">Tìm Số Chính Phương</button>
+        <p id="outputText"></p>
+    </div>
+
+    <script>
+        function findPerfectSquares() {
+            const numberA = parseInt(document.getElementById('numberA').value);
+            const numberB = parseInt(document.getElementById('numberB').value);
+            let outputText = '';
+
+            if (isNaN(numberA) || isNaN(numberB)) {
+                outputText = 'Vui lòng nhập số hợp lệ.';
+            } else {
+                let result = '';
+
+                for (let i = numberA; i <= numberB; i++) {
+                    if (Number.isInteger(Math.sqrt(i))) {
+                        result += i + ' ';
+                    }
+                }
+
+                if (result === '') {
+                    outputText = 'Không có số chính phương trong khoảng này.';
+                } else {
+                    outputText = `Các số chính phương từ khoảng ${numberA} tới ${numberB} là: ${result}`;
+                }
+            }
+
+            document.getElementById('outputText').textContent = outputText;
+        }
+    </script>
+</body>
+</html>

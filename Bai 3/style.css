@@ -1,0 +1,505 @@
+/* Desktop - 1 */
+body {
+    position: relative;
+    width: 1024px;
+    height: 849px;
+    background: #1C233D;
+}
+
+/* Sapphire */
+.sapphire {
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 72px;
+    top: 15px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #E5E5E5;
+}
+
+/* Explore */
+.explore {
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: 218px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+
+/* Marketplace */
+.marketplace {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 295px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+
+/* Artist */
+.artist {
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 413px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+
+/* Collection */
+.collection {
+    position: absolute;
+    width: 68px;
+    height: 18px;
+    left: 481px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+
+/* Frame 1 */
+.frame-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 584px;
+    top: 18px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+/* Search */
+.search {
+    position: absolute;
+    width: 34px;
+    height: 13px;
+    left: 7px;
+    top: 8px;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #E5E5E5;
+}
+
+/* Vector */
+.vector-1 {
+    position: absolute;
+    left: 92.15%;
+    right: 4.18%;
+    top: 30%;
+    bottom: 40.37%;
+    border: 1.11111px solid #E5E5E5;
+}
+
+/* Vector */
+.vector-2 {
+    position: absolute;
+    left: 95.28%;
+    right: 3.72%;
+    top: 55.28%;
+    bottom: 36.67%;
+    border: 1.11111px solid #E5E5E5;
+}
+
+/* Frame 2 */
+.frame-2 {
+    position: absolute;
+    width: 404px;
+    height: 494px;
+    left: 551px;
+    top: 125px;
+    background: #30384D;
+    border-radius: 10px;
+}
+/* image 1 */
+.image-1 {
+    position: absolute;
+    width: 357.28px;
+    height: 370.24px;
+    left: 25.72px;
+    top: 29px;
+    background: url(image.png);
+    border-radius: 4.89425px;
+}
+
+/* Monkey Apes */
+.monkey-apes {
+    position: absolute;
+    width: 98px;
+    height: 18px;
+    left: 32px;
+    top: 410px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Ellipse 1 */
+.ellipse-1 {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 284px;
+    top: 410px;
+    background: url(image.png);
+}
+
+/* Ellipse 2 */
+.ellipse-2 {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 299px;
+    top: 410px;
+    background: url(image.png);
+}
+
+/* Ellipse 3 */
+.ellipse-3 {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 319px;
+    top: 410px;
+    background: url(image.png);
+}
+
+/* Ellipse 4 */
+.ellipse-4 {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 334px;
+    top: 410px;
+    background: url(image.png);
+}
+
+/* Ellipse 5 */
+.ellipse-5 {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 354px;
+    top: 410px;
+    background: url(image.png);
+}
+
+/* Current Bid */
+.current-bid {
+    position: absolute;
+    width: 58px;
+    height: 10px;
+    left: 33px;
+    top: 449px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    color: #545C71;
+}
+.current-bid-2 {
+    position: absolute;
+    width: 58px;
+    height: 10px;
+    left: 170px;
+    top: 449px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #545C71;
+}
+
+/* Ending In */
+.ending-in {
+    position: absolute;
+    width: 44px;
+    height: 10px;
+    left: 353px;
+    top: 449px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #545C71;
+}
+
+/* 0.45 ETH */
+.eth-amount {
+    position: absolute;
+    width: 48px;
+    height: 13px;
+    left: 43px;
+    top: 463px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+/* 900 Authors */
+.authors-count {
+    position: absolute;
+    width: 66px;
+    height: 13px;
+    left: 170px;
+    top: 463px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+/* 10h 43m 26s */
+.time-left {
+    position: absolute;
+    width: 66px;
+    height: 13px;
+    left: 331px;
+    top: 463px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+/* Ellipse 6 */
+.ellipse-6 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 33px;
+    top: 466px;
+    background: url(image.png);
+}
+
+/* Vector */
+.vector-3 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 79.46%;
+    right: 18.84%;
+    top: 94.13%;
+    bottom: 4.1%;
+    border: 1px solid #FFFFFF;
+}
+
+/* Vector */
+.vector-4 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 58.69%;
+    right: 40.04%;
+    top: 47.28%;
+    bottom: 51.86%;
+    border: 1px solid #FFFFFF;
+}
+/* Discover, Sell & Collect Rare NFTs */
+.discover-nfts {
+    position: absolute;
+    width: 400px;
+    height: 231px;
+    left: 62px;
+    top: 138px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+/* Vector 1 */
+.vector-1 {
+    position: absolute;
+    width: 121.5px;
+    height: 13.07px;
+    left: 339px;
+    top: 287px;
+    border: 3px solid #770777;
+}
+
+/* Digital marketplace for crypto collections and non-fungible tokens (NFTs) */
+.digital-marketplace {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 62px;
+    top: 381px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* 35k+ */
+.thirty-five-k {
+    position: absolute;
+    width: 87px;
+    height: 46px;
+    left: 62px;
+    top: 554px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+/* 15k+ */
+.fifteen-k {
+    position: absolute;
+    width: 81px;
+    height: 46px;
+    left: 220px;
+    top: 554px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+/* 25k+ */
+.twenty-five-k {
+    position: absolute;
+    width: 86px;
+    height: 46px;
+    left: 363px;
+    top: 554px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+/* image-removebg-preview (6) */
+.image-6 {
+    position: absolute;
+    width: 135.71px;
+    height: 50px;
+    left: 276px;
+    top: 743px;
+    background: url(image-removebg-preview (6).png);
+}
+
+/* image-removebg-preview (12) 1 */
+.image-12-1 {
+    position: absolute;
+    width: 135.71px;
+    height: 50px;
+    left: 457px;
+    top: 743px;
+    background: url(image-removebg-preview (12).png);
+}
+
+/* image-removebg-preview (13) 1 */
+.image-13-1 {
+    position: absolute;
+    width: 135.71px;
+    height: 50px;
+    left: 629px;
+    top: 743px;
+    background: url(image-removebg-preview (13).png);
+}
+
+/* image-removebg-preview (7) 1 */
+.image-7-1 {
+    position: absolute;
+    width: 135.71px;
+    height: 50px;
+    left: 825px;
+    top: 743px;
+    background: url(image-removebg-preview (7).png);
+}
+
+/* NFT Marketplace */
+.nft-marketplace {
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    left: 467px;
+    top: 849px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    background: linear-gradient(180deg, #9C76B8 0%, rgba(156, 118, 184, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/* Super Hot Drops */
+.super-hot-drops {
+    position: absolute;
+    width: 158px;
+    height: 26px;
+    left: 433px;
+    top: 875px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+/* Frame 17 */
+.frame-17 {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    left: 441px;
+    top: 1775px;
+    background: #30384D;
+    border-radius: 5px;
+}
+
+/* View More */
+.view-more {
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 38px;
+    top: 10px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+

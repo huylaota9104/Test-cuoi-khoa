@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradient Color Picker</title>
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+  }
+
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  .color-preview {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: #000;
+  }
+
+  .color-code {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="color-picker">
+  <div class="color-preview" id="colorPreview"></div>
+  <input type="color" id="colorInput">
+  <div class="color-code" id="colorCode">#000000</div>
+  <button id="copyButton">Copy Hex Code</button>
+  <button id="randomColorButton">Random Color</button>
+</div>
+
+<script>
+  const colorInput = document.getElementById('colorInput');
+  const colorPreview = document.getElementById('colorPreview');
+  const colorCode = document.getElementById('colorCode');
+  const copyButton = document.getElementById('copyButton');
+  const randomColorButton = document.getElementById('randomColorButton');
+
+  colorInput.addEventListener('input', updateColor);
+  copyButton.addEventListener('click', copyHexCode);
+  randomColorButton.addEventListener('click', randomColor);
+
+  function updateColor() {
+    const selectedColor = colorInput.value;
+    colorPreview.style.background = selectedColor;
+    colorCode.textContent = selectedColor;
+    document.body.style.background = `linear-gradient(to bottom right, ${selectedColor}, ${selectedColor})`;
+  }
+
+  function copyHexCode() {
+    const textArea = document.createElement('textarea');
+    textArea.value = colorCode.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+    alert('Hex code copied to clipboard!');
+  }
+
+  function randomColor() {
+    const randomHexColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+    colorInput.value = randomHexColor;
+    updateColor();
+  }
+
+  updateColor();
+</script>
+</body>
+</html>
